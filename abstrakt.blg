@@ -1,9 +1,9 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
-[1] Config.pm:305> INFO - Logfile is 'abstrakt.blg'
-[38] biber:313> INFO - === Mi Mär 18, 2020, 04:03:28
-[59] Biber.pm:371> INFO - Reading 'abstrakt.bcf'
-[136] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[146] Utils.pm:169> WARN - The file 'abstrakt.bcf' does not contain any citations!
-[154] bbl.pm:617> INFO - Writing 'abstrakt.bbl' with encoding 'UTF-8'
-[154] bbl.pm:720> INFO - Output to abstrakt.bbl
-[154] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:305> INFO - Logfile is 'abstrakt.blg'
+[27] biber:313> INFO - === Mo Mär 30, 2020, 21:59:53
+[48] Biber.pm:371> INFO - Reading 'abstrakt.bcf'
+[104] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[110] Utils.pm:169> WARN - The file 'abstrakt.bcf' does not contain any citations!
+[116] bbl.pm:617> INFO - Writing 'abstrakt.bbl' with encoding 'UTF-8'
+[116] bbl.pm:720> INFO - Output to abstrakt.bbl
+[117] Biber.pm:110> INFO - WARNINGS: 1
