@@ -16,5 +16,41 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{freud_massen_1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=58227b8cb75750689aafd0bdb2b63408}{%
+           family={Freud},
+           familyi={F\bibinitperiod},
+           given={Sigmund},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt a.M.}%
+      }
+      \list{publisher}{1}{%
+        {Fischer Taschenbuch GmbH}%
+      }
+      \strng{namehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{bibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorbibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authornamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \field{labelalpha}{Fre93}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Zehnte Auflage}
+      \field{shorttitle}{Massenpsychologie}
+      \field{title}{Massenpsychologie und Ich-Analyse, Die Zukunft einer Illusion}
+      \field{year}{1993}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

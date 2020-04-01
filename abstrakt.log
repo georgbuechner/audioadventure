@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  30 MAR 2020 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  2 APR 2020 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,6 +1076,171 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count318
+\l_tmpa_int=\count319
+\l_tmpb_int=\count320
+\g_tmpa_int=\count321
+\g_tmpb_int=\count322
+\g__intarray_font_int=\count323
+\g__prg_map_int=\count324
+\c_log_iow=\count325
+\l_iow_line_count_int=\count326
+\l__iow_line_target_int=\count327
+\l__iow_one_indent_int=\count328
+\l__iow_indent_int=\count329
+\c_zero_dim=\dimen158
+\c_max_dim=\dimen159
+\l_tmpa_dim=\dimen160
+\l_tmpb_dim=\dimen161
+\g_tmpa_dim=\dimen162
+\g_tmpb_dim=\dimen163
+\c_zero_skip=\skip70
+\c_max_skip=\skip71
+\l_tmpa_skip=\skip72
+\l_tmpb_skip=\skip73
+\g_tmpa_skip=\skip74
+\g_tmpb_skip=\skip75
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count330
+\c__fp_leading_shift_int=\count331
+\c__fp_middle_shift_int=\count332
+\c__fp_trailing_shift_int=\count333
+\c__fp_big_leading_shift_int=\count334
+\c__fp_big_middle_shift_int=\count335
+\c__fp_big_trailing_shift_int=\count336
+\c__fp_Bigg_leading_shift_int=\count337
+\c__fp_Bigg_middle_shift_int=\count338
+\c__fp_Bigg_trailing_shift_int=\count339
+\c__fp_rand_size_int=\count340
+\c__fp_rand_four_int=\count341
+\c__fp_rand_eight_int=\count342
+\l__sort_length_int=\count343
+\l__sort_min_int=\count344
+\l__sort_top_int=\count345
+\l__sort_max_int=\count346
+\l__sort_true_max_int=\count347
+\l__sort_block_int=\count348
+\l__sort_begin_int=\count349
+\l__sort_end_int=\count350
+\l__sort_A_int=\count351
+\l__sort_B_int=\count352
+\l__sort_C_int=\count353
+\l__tl_build_start_index_int=\count354
+\l__tl_build_index_int=\count355
+\l__tl_analysis_normal_int=\count356
+\l__tl_analysis_index_int=\count357
+\l__tl_analysis_nesting_int=\count358
+\l__tl_analysis_type_int=\count359
+\l__regex_internal_a_int=\count360
+\l__regex_internal_b_int=\count361
+\l__regex_internal_c_int=\count362
+\l__regex_balance_int=\count363
+\l__regex_group_level_int=\count364
+\l__regex_mode_int=\count365
+\c__regex_cs_in_class_mode_int=\count366
+\c__regex_cs_mode_int=\count367
+\l__regex_catcodes_int=\count368
+\l__regex_default_catcodes_int=\count369
+\c__regex_catcode_D_int=\count370
+\c__regex_catcode_S_int=\count371
+\c__regex_catcode_L_int=\count372
+\c__regex_catcode_O_int=\count373
+\c__regex_catcode_A_int=\count374
+\c__regex_all_catcodes_int=\count375
+\l__regex_show_lines_int=\count376
+\l__regex_min_state_int=\count377
+\l__regex_max_state_int=\count378
+\l__regex_left_state_int=\count379
+\l__regex_right_state_int=\count380
+\l__regex_capturing_group_int=\count381
+\l__regex_min_pos_int=\count382
+\l__regex_max_pos_int=\count383
+\l__regex_curr_pos_int=\count384
+\l__regex_start_pos_int=\count385
+\l__regex_success_pos_int=\count386
+\l__regex_curr_char_int=\count387
+\l__regex_curr_catcode_int=\count388
+\l__regex_last_char_int=\count389
+\l__regex_case_changed_char_int=\count390
+\l__regex_curr_state_int=\count391
+\l__regex_step_int=\count392
+\l__regex_min_active_int=\count393
+\l__regex_max_active_int=\count394
+\l__regex_replacement_csnames_int=\count395
+\l__regex_match_count_int=\count396
+\l__regex_min_submatch_int=\count397
+\l__regex_submatch_int=\count398
+\l__regex_zeroth_submatch_int=\count399
+\g__regex_trace_regex_int=\count400
+\c_empty_box=\box39
+\l_tmpa_box=\box40
+\l_tmpb_box=\box41
+\g_tmpa_box=\box42
+\g_tmpb_box=\box43
+\l__box_top_dim=\dimen164
+\l__box_bottom_dim=\dimen165
+\l__box_left_dim=\dimen166
+\l__box_right_dim=\dimen167
+\l__box_top_new_dim=\dimen168
+\l__box_bottom_new_dim=\dimen169
+\l__box_left_new_dim=\dimen170
+\l__box_right_new_dim=\dimen171
+\l__box_internal_box=\box44
+\l__coffin_internal_box=\box45
+\l__coffin_internal_dim=\dimen172
+\l__coffin_offset_x_dim=\dimen173
+\l__coffin_offset_y_dim=\dimen174
+\l__coffin_x_dim=\dimen175
+\l__coffin_y_dim=\dimen176
+\l__coffin_x_prime_dim=\dimen177
+\l__coffin_y_prime_dim=\dimen178
+\c_empty_coffin=\box46
+\l__coffin_aligned_coffin=\box47
+\l__coffin_aligned_internal_coffin=\box48
+\l_tmpa_coffin=\box49
+\l_tmpb_coffin=\box50
+\l__coffin_display_coffin=\box51
+\l__coffin_display_coord_coffin=\box52
+\l__coffin_display_pole_coffin=\box53
+\l__coffin_display_offset_dim=\dimen179
+\l__coffin_display_x_dim=\dimen180
+\l__coffin_display_y_dim=\dimen181
+\l__coffin_bounding_shift_dim=\dimen182
+\l__coffin_left_corner_dim=\dimen183
+\l__coffin_right_corner_dim=\dimen184
+\l__coffin_bottom_corner_dim=\dimen185
+\l__coffin_top_corner_dim=\dimen186
+\l__coffin_scaled_total_height_dim=\dimen187
+\l__coffin_scaled_width_dim=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count401
+\l__driver_tmp_box=\box54
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count402
+\g__xparse_grabber_int=\count403
+\l__xparse_m_args_int=\count404
+\l__xparse_mandatory_args_int=\count405
+\l__xparse_v_nesting_int=\count406
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \footATCite with sig. ' o o m ' on line 34.
+.................................................
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'ngerman'...
@@ -1092,33 +1257,33 @@ File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 (./abstrakt.aux)
 \openout1 = `abstrakt.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen158
-\scratchbox=\box39
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\scratchcounter=\count407
+\scratchdimen=\dimen189
+\scratchbox=\box55
+\nofMPsegments=\count408
+\nofMParguments=\count409
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen159
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPscratchCnt=\count410
+\MPscratchDim=\dimen190
+\MPnumerator=\count411
+\makeMPintoPDFobject=\count412
 \everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1138,8 +1303,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box40
-Package hyperref Info: Link coloring OFF on input line 37.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1147,11 +1312,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count324
+\c@section@level=\count413
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./abstrakt.out) (./abstrakt.out)
 \@outlinefile=\write6
@@ -1165,58 +1330,56 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'abstrakt.bbl' found.
  (./abstrakt.bbl)
-Package biblatex Info: Reference section=0 on input line 37.
-Package biblatex Info: Reference segment=0 on input line 37.
+Package biblatex Info: Reference section=0 on input line 49.
+Package biblatex Info: Reference segment=0 on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 40.
+(Font)              <14.4> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
+(Font)              <7> on input line 52.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 73.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 74.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 
-Overfull \hbox (4.68758pt too wide) in paragraph at lines 76--77
+Overfull \hbox (4.68758pt too wide) in paragraph at lines 88--89
 []\OT1/cmr/m/n/12 Im Lau-fe des Au-dio-ad-ven-tu-res kann sich die Ton-spur der
  Teil-neh-mer*innen
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 96.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 87.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 87.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 87.
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 98.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--91
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
@@ -1227,78 +1390,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 103.
 [2]
-Overfull \hbox (39.88579pt too wide) in paragraph at lines 93--104
-[]  
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 111.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 111.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 113.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 113.
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 118.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 118.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 118.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 118.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--129
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--134
+Underfull \hbox (badness 10000) in paragraph at lines 120--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
-
- []
-
-
-Overfull \hbox (1.19734pt too wide) in paragraph at lines 141--148
+Overfull \hbox (1.19734pt too wide) in paragraph at lines 127--134
 \OT1/cmr/m/n/12 dort. Ei-ni-ge von uns hal-ten sich an den H[]anden. Die Stadt 
 ist ein Tr[]ummerfeld
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
+Underfull \hbox (badness 10000) in paragraph at lines 127--134
 
  []
 
@@ -1309,24 +1435,73 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 134.
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 161.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 177.
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 183.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 183.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 183.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 183.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 163.
-
-LaTeX Warning: Empty bibliography on input line 165.
+(babel)             in language  on input line 193.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1335,43 +1510,61 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 198.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 198.
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 200.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 200.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 200.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 200.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./abstrakt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `abstrakt.out' has not changed.
-(rerunfilecheck)             Checksum: DC1AA194F3E83E7E0BD7030CFBF7540F;396.
+(rerunfilecheck)             Checksum: A010940C2CF81C54FBE338B7200A9696;503.
 Package logreq Info: Writing requests to 'abstrakt.run.xml'.
 \openout1 = `abstrakt.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 23340 strings out of 492982
- 433958 string characters out of 6134896
- 883250 words of memory out of 5000000
- 26533 multiletter control sequences out of 15000+600000
- 9502 words of font info for 33 fonts, out of 8000000 for 9000
+ 31793 strings out of 492982
+ 610850 string characters out of 6134896
+ 1024934 words of memory out of 5000000
+ 34960 multiletter control sequences out of 15000+600000
+ 536173 words of font info for 41 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 62i,11n,56p,925b,1628s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,59p,10406b,1628s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on abstrakt.pdf (5 pages, 80964 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb>
+Output written on abstrakt.pdf (6 pages, 123939 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -22,6 +22,18 @@
     ]{biblatex}
 \addbibresource{literatur.bib}
 
+\usepackage{xparse}
+\DeclareDocumentCommand \footATCite{ o o m } {%
+  \IfNoValueTF {#2} 
+        { \IfNoValueTF {#2}
+                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}
+                {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}} }
+        { \IfNoValueTF {#1} 
+                    {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}
+                    {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}} }
+  }
+
+
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{Jan van Dick}
@@ -80,33 +92,6 @@ Im Laufe des Audioadventures kann sich die Tonspur der Teilnehmer*innen auf zwei
 \end{itemize}
 Hierzu genauer im Abschnitt \hyperref[technische_umsetzung]{Technische Umsetzung}.
 
-\subsection{Die Handlung}
-Die Handlung lehnt sich zumindest zu Beginn an das Stück Kleists an. 
-Dabei \glqq spielen\grqq die einzelnen Teilnehmer*innen die Rollen zweier verliebter Charaktere.
-Im Laufe der Geschichte verlassen Teile der Charaktere die Stadt und finden das Tal, welches auch bei Kleist existiert und beginnen hier eine (scheinbar) klassenlose (sozialistische) Gesellschaft aufzubauen.
-Die anderen Charaktere bleiben in der Stadt ($\rightarrow$ Gruppe Stadt, Gruppe Tal).
-Sowohl in der Stadt, als auch, in dem Tal brechen nach einiger Zeit faschistische Tendenzen auf ($\rightarrow$ Gruppe Stadt 1, 2, Gruppe Tal 1, 2).
-Keineswegs sind die Charaktere allerdings durch ihre anfängliche Tonspur an eine der Gruppe fest gebunden. 
-Jede Audiospur \textit{suggeriert} bloß eher den einen, eher den anderen Weg.\\
-
-\begin{flushleft}
-\begin{tabular}{p{1cm}|p{3cm}*{3}{|p{3cm}}}
-\textbf{Akt} & \textbf{Tal 1} & \textbf{Tal 2} & \textbf{Stadt 1} & \textbf{Stadt 2} \\
-\hline
-I   & Liebesgeschichte & Liebesgeschichte & Liebesgeschichte & Liebesgeschichte \\
-\hline
-    & Erdbeben & Erdbeben & Erdbeben & Erdbeben \\
-\hline
-II  & Suche Partner & Suche Partner & Suche Partner & Suche Partner \\
-\hline
-    & Aufbau der Soz. Gesell. & Soz. Gesell. & Wiederaufbau & Wiederaufbau \\
-\end{tabular}
-\end{flushleft}
-
-Egal wie die Spieler*innen sich entscheiden, mündet jede Gruppe in isoliertem, ausgrenzenden, faschistischem Verhalten, mit dem Verlassen eines Weges (Ausbruch aus der 1. Natur) betreten sie einen neuen, ebenso geleiteten, von der Massenideologie geführten Weg (2. Natur).
-Das Ausbrechen ist nur Möglich durch das Absetzen der Kopfhörer und das unterbrechen der Inszinierung und Finden eines eigenen Ausgangs.
-Auch dieser Weg soll in den Tonspuren als mögliche Alternative anklingen, jedoch sehr mild.
-Er soll weniger vorgeschlagen werden, als eher in der Tonspur, die Angst \glqq die Inszinierung kaputt zu machen\grqq{} o.ä. genommen werden.
 
 \section{Das Erdbeben aus Chili}
 
@@ -127,12 +112,13 @@ Ich existiere nur in deinem Ohr, körperlos.
 Versuchst du mich zu greifen oder dich an mir festzuhalten, musst du bald feststellen, dass es nichts Greifbares gibt, nur Wellen von der jede einzelne schon wieder verschwunden ist, wenn sie sich zum Wort verwandelt hat;
 der Ton zerrinnt zwischen deinen Fingern und nur, dass du mich hörst, ist der Beweis, dass ich doch irgendwie bin.\\
 
-Der Staub zerzieht sich, die Münder sind noch trocken, die Stimmen der Schreienden sind laut, ihre Gesichter verzehrt, dreckig und blutig rinnen ihnen Tränen durch ihr Gesicht.
+Der Staub zerzieht sich, die Münder sind noch trocken, die Stimmen der Schreienden sind laut, ihre Gesichter verzehrt, dreckig und blutig rinnen ihnen Tränen über ihr Gesicht.
 Bald ist es dunkel, dann kommt das Mondscheinlicht, dann sehen wir sie (endlich) nicht mehr.
 Aber von dem Staub sehen wir auch kaum zehn Meter weit. 
 Er ist überall, dieser grausame Staub, doch langsam verzieht er sich. \\
 
-Hörst du mich? Willst du mich hineinlassen? In dich? Eine Fremde? Eine Stimme?. 
+Hörst du mich? Willst du mich hineinlassen? In dich? Eine Fremde? Eine bloße Stimme?
+Bin ich dir noch zu leer?
 Aber ich muss nicht Stimme bleiben. 
 Damit greife ich wohl einen Gedanken Nietzsches auf. 
 Dass ich nicht Stimme bleiben muss, scheint mir das zu sein, was Nietzsche beschreibt, wenn er erklärt, dass wir einen Baum nie vollständig sehen, ihn eher aus einigen Ästen, Farbeindrücken und Blättern uns erdichten.
@@ -147,18 +133,65 @@ Ein Trümmerfeld aus Verzweiflung.
 Wen werden die Leichen nicht noch ewig auf den Augen brennen?\\
 
 Fühlst du mich? Werde ich dir langsam warm? Nietzsche schreibt: 
-\glqq Wir erdichten uns den größten Teil des Erlebnisses und sind kaum dazu zu zwingen nicht als \glq Erdinger\grq{} irgendeinem Vorgang zuzuschauen. 
+\glqq Wir erdichten uns den größten Teil des Erlebnisses und sind kaum dazu zu zwingen nicht als \glq Erfinder\grq{} irgendeinem Vorgang zuzuschauen. 
 Dies alles will sagen: Wir sind von Grund aus, von alters her \textit{ans Lügen gewöhnt}. Oder, um es tugendhafter und heuchlichericher, kurz: angenehmer auszurücken: 
-Man ist viel mehr Künstler, als man weiß\grqq.\\
+Man ist viel mehr Künstler, als man weiß\grqq. 
+Wie viel dichtest du mir an?\\
+
+Der Staub zerzieht sich. 
+Das Blut bleibt.
+Der Tag weicht der Nacht
+Was gesehen ist, wird bald verwunden seinen.
+Doch die Schreie sie bleiben.
+Sie bleiben in unseren Ohren. \\
+
+Wie viel dichtest du mir an? 
+Mit welchen Metaphern fütterst du den Ton, der durch deinen Kopf schleicht und so Sekunde für Sekunde mehr Körper bekommt, mehr Bild wird und schließlich so echt wirkt, wie ein Traum und nur noch die Frage bleibt: Was unterscheidet Traum und Wirklichkeit? (Oder: bin ich noch weniger wirklich als die Menschen um dich herum?)\\
+
+Jetzt ist die Nacht da. 
+Jetzt hat sich der Staub scheinbar noch dichter zugezogen.
+Nur wir können uns noch sehen, weil wir einander kennen. 
+Es ist jetzt Zeit, jetzt können wir nicht mehr gesehen werden. 
+Jetzt los, die Trümmern, die Schreie: hinter uns gelassen. 
+Macht schnell!\\
+
+Es hat mich so danach verlangt mit dir zu reden? Wirst du mir folgen nachher? 
+Aber lass mich doch noch ein wenig näher an dich heran, indem du dir die Technik zu nutze machst, die sich in deiner Hosentasche versteckt, um mich dann ganz nahe bei deinem Ohr zu habe, dann übernehme ich, als dein Objekt die Führung über dein Erdichten und Erfinden und Künstler-Sein.\\
+
+\subsection{Die erste Entscheidung (Gruppe 1)}
+Ist es so besser? Jetzt bin ich nur für dich da.
+Jetzt bin ich nur für dich da. Wirst du mir folgen? 
+Ist es so besser?
+Wenn du mir vertraust, dann verlasse jetzt den Raum durch die große Tür. 
+Gehe langsam und vorsichtig. 
+Wir wollen nicht gehört oder gesehen werden. 
+Verlasse langsam den Raum durch die große Tür.\\
+Die Zeit ist gekommen, dass wir uns bewegen und die über unseren Köpfen zusammengeschlagenen Arme sinken lassen und uns nicht mehr verstecken. 
+Die Punkt ist gekommen, an dem wir die gefallene Stadt uns zu eigen machen können. 
+Wir versammeln uns in dem nächste Raum und warten, bis alle eingetroffen sind.
+Wir sind solidarisch, wir bleiben zusammen.
+Wartet auf die anderen. Wir haben lange genug gewartet und wollen jetzt nichts überstürzen.
+Wenn so eine Stadt zusammenbricht und in die Knie gezwungen wird, ist es für die ewig wartenden, die lauernden manchmal eine Freude jetzt endlich ausbrechen zu können. 
+Darauf haben wir gewartet.
+Für uns geborenen Räthselrather, ist so manche Sonnenfinsternis, das neue, noch nie so offen gewesene Meer. 
+\begin{itemize}
+
+    \item[] \textit{In der Masse, meint Le Bon, vermischen sich die individuellen Erwerbungen des Einzelnen, und damit verschwindet deren Eigenart. 
+Das rassenmäßige Unbewusste tritt hervor, das Heterogene versinkt im Homogenen.
+Das Individuum erlangt ein Gefühl der unüberwindbaren Macht, welche ihm gestattet Trieben zu frönen, die es sonst notwendigerweise unterdrückt hätte.\footfullcite[][37]{freud_massen_1993}
+Die Masse ist außerordentlich leicht beeinflußbar und leichtgläubig, sie ist kritiklos, das Unwahrscheinliche existiert für die nicht.\footATCite[][41]{freud_massen_1993}
+Während die intellektuelle Leistung der Masse  immer tief unter der des einzelnen steht, kann ihr ethisches Verhalten dieses Niveau hich überragen, wie tief darunter herabgehen.\footATCite[][42]{freud_massen_1993}}
+\end{itemize}
+
+Sind wir beisammen, haben wir uns gefunden? 
+Wir müssen uns aufeinander verlassen können. 
+Wenn einem etwas auffällt, was verdächtig ist, brauchen wir ein Zeichen.
+Wenn einer den Arm hebt, bedeutet das Gefahr und ein jeder drückt sich mit dem Rücken an die nächste Wand. 
+Wollen wir es versuchen?
 
 
-Es hat mich so danach verlangt mit dir zu reden? Wirst du mir folgen nachher? Ich mag auch einmal deine Stimme hören. Aber vielleicht ist noch nicht die richtige Zeit?\\
-
-
-Bin ich dir noch zu leer? 
-
-
-
+\subsection{Die erste Entscheidung (Gruppe 2)}
+\textit{Während die anderen den Raum verlassen haben geht langsam das Licht wieder an und beleuchtet die blutbeschmierten Puppen}
 
 \section{Technische Umsetzung}\label{technische_umsetzung}
    
