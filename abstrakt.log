@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  2 APR 2020 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  9 APR 2020 03:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1494,14 +1494,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 183.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 183.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 193.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 193.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 196.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 196.
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--199
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1510,14 +1511,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 198.
+(babel)             in language  on input line 217.
 [5]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 221.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 221.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 224.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 224.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1525,30 +1535,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 228.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 228.
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (./abstrakt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `abstrakt.out' has not changed.
 (rerunfilecheck)             Checksum: A010940C2CF81C54FBE338B7200A9696;503.
 Package logreq Info: Writing requests to 'abstrakt.run.xml'.
 \openout1 = `abstrakt.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  ) 
 Here is how much of TeX's memory you used:
  31793 strings out of 492982
  610850 string characters out of 6134896
- 1024934 words of memory out of 5000000
+ 1025936 words of memory out of 5000000
  34960 multiletter control sequences out of 15000+600000
  536173 words of font info for 41 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
@@ -1561,7 +1571,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb>
-Output written on abstrakt.pdf (6 pages, 123939 bytes).
+Output written on abstrakt.pdf (6 pages, 125676 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
