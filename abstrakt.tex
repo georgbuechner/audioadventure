@@ -7,7 +7,9 @@
 
 \usepackage{fancyhdr}
 
-\usepackage{todonotes}
+\usepackage[
+    textsize=tiny
+    ]{todonotes}
 \usepackage{hyperref}
 
 \usepackage[autostyle]{csquotes}
@@ -24,13 +26,15 @@
 
 \usepackage{xparse}
 \DeclareDocumentCommand \footATCite{ o o m } {%
-  \IfNoValueTF {#2} 
-        { \IfNoValueTF {#2}
-                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}
-                {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}} }
-        { \IfNoValueTF {#1} 
-                    {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}
-                    {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}} }
+  \IfNoValueTF {#2}% 
+        { \IfNoValueTF {#2}%
+                {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}%
+                {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}.}}% 
+        }%
+        { \IfNoValueTF {#1}%
+                    {\footnote{\citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}%
+                    {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}% 
+        }%
   }
 
 
@@ -170,12 +174,10 @@ Die Zeit ist gekommen, dass wir uns bewegen und die über unseren Köpfen zusamm
 Die Punkt ist gekommen, an dem wir die gefallene Stadt uns zu eigen machen können. 
 Wir versammeln uns in dem nächste Raum und warten, bis alle eingetroffen sind.
 Wir sind solidarisch, wir bleiben zusammen.
-Wartet auf die anderen. Wir haben lange genug gewartet und wollen jetzt nichts überstürzen.
-Wenn so eine Stadt zusammenbricht und in die Knie gezwungen wird, ist es für die ewig wartenden, die lauernden manchmal eine Freude jetzt endlich ausbrechen zu können. 
-Darauf haben wir gewartet.
+Wartet auf die anderen. Wir sind das Warten und die Gedulde gewohnt und wollen darum jetzt nichts überstürzen.
+Wenn so eine Stadt zusammenbricht und in die Knie gezwungen wird, ist es für die ewig Wartenden, die Lauernden manchmal eine Freude jetzt endlich ausbrechen zu können. 
 Für uns geborenen Räthselrather, ist so manche Sonnenfinsternis, das neue, noch nie so offen gewesene Meer. 
 \begin{itemize}
-
     \item[] \textit{In der Masse, meint Le Bon, vermischen sich die individuellen Erwerbungen des Einzelnen, und damit verschwindet deren Eigenart. 
 Das rassenmäßige Unbewusste tritt hervor, das Heterogene versinkt im Homogenen.
 Das Individuum erlangt ein Gefühl der unüberwindbaren Macht, welche ihm gestattet Trieben zu frönen, die es sonst notwendigerweise unterdrückt hätte.\footfullcite[][37]{freud_massen_1993}
@@ -187,7 +189,7 @@ Sind wir beisammen, haben wir uns gefunden?
 Wir müssen uns aufeinander verlassen können. 
 Wenn einem etwas auffällt, was verdächtig ist, brauchen wir ein Zeichen.
 Wenn einer den Arm hebt, bedeutet das Gefahr und ein jeder drückt sich mit dem Rücken an die nächste Wand. 
-Wollen wir es versuchen?\\
+Wollen wir es versuchen?\todo{Check waiting time.} \\
 
 Verlasse jetzt den Raum und betrete die Straße. 
 Atme den Duft ein, er ist staubig und trocken, aber es ist dein Duft, der Duft, der bald dein Sein wird.
@@ -200,19 +202,37 @@ Viel zu lange stand die Stadt unter der Herrschaft der anderen. \\
 Wir passieren eine kleine Gasse, hier treiben sich die Aufständigen herum die gegen den Geist der Stadt ihr eigenes durchzusetzen versuchen.
 Wenn du magst, zieh, deine Kopfhörer ab und erkunde, was die anderen aus der Krise der Stadt machen wollen, doch sei gewarnt, sie sind nicht auf unserer Seite.
 Die dunkle Gasse liegt jetzt hinter uns. 
-Zu viele Gassen sind dunkel geworden. 
+Zu viele Gassen sind dunkel geworden.\todo{Insert a Szene of first confrontation between Gruppe A and C}\\
+
 Doch wir laufen weiter geradeaus, um diese Stadt zu befreien.
 Laufe weiter gerade aus, an der Gasse vorbei und die Kantstraße entlang. 
 Wir können schon die Stimmen der Bewohner hören, die uns zujubeln. 
 Manchmal muss für eine Stadt die Katastrophe kommen, damit sie aus ihrer Asche neu entstehen kann.
 Und wir sind der Phönix der sie aus der toten Asche an die lebendige Luft bringen wird.
-Lauft weiter die Kantstraße entlang.
-An der nächsten Kreuzung lauf über die Straße, dann biegen wir links ab, auf die andere Seite.
+Laufe weiter die Kantstraße entlang.
+An der nächsten Kreuzung überquere den Sandweg, dann biege links ab, auf die andere Straßenseite.
 Einige erwarten schon unsere Ankunft, wie werden sie uns begrüßen?
 Wie werden wir sie grüßen und anreden?
-Biege jetzt links ab, auf die andere Straßenseite und dann gleich wieder links. 
+Wie Grüßt man seine Untertanen? Genossen? Kameraden? Volk? 
+Überquere jetzt den Sandweg und biege jetzt links ab, auf die andere Straßenseite. 
+Überquere den Sandweg und dann die Kantstraße.
+Der Staub verzieht sich. 
+Er macht seinen neuen Herren Platz. 
+Er gibt Raum.
+Wenn du die Kantstraße überquert hast, drehe dich nach links und überquere den Sandweg.
+Der Absatz unserer Sohlen hallt durch die leeren Straßen, und entfaltet sich, wie ein rasendes Phantom in der Stadt.
+Bald werden alle von uns hören.
+Gehe nun wieder link und überquere die Kantstraße, dann, wieder den Sandweg.
+Kant. Sand. Kant. Sand.
+Achte darauf, dass noch alle beisammen sind. 
+Du trägst die Verantwortung!
+Wir kommen zu günstiger Zeit, doch können wir nur als Gruppe stark genug sein.
+Wir drehen uns erneut nach links und überqueren ein letztes Mal die Kantstraße und dann wieder links und auch ein letztes Mal den Sand weg. 
+Danach geht es geradeaus, zur Tribüne!\\
+
 Das Parlament ist gefallen, lang lebe das Parlament, wir sind das neue Parlament!
 Einige werden schon auf uns warten, wenn wir ankommen.
+
 Laufe weiter die Kantstraße entlang. 
 
 
@@ -221,8 +241,45 @@ Laufe weiter die Kantstraße entlang.
 \subsection{Die erste Entscheidung (Gruppe 2)}
 \textit{Während die anderen den Raum verlassen haben geht langsam das Licht wieder an und beleuchtet die blutbeschmierten Puppen}
 
+\section{Ideen und Konzepte}\label{ideen_konzepte}
+\subsection{Gruppen}
+\begin{itemize}
+    \item[A] \textbf{Eroberer} Wollen die Stadt Chili einnehmen.
+    \item[B] \textbf{Bürger} Haben von der Ankunft der Eroberer gehört und wollen sie in Empfang nehmen.
+    \item[C] \textbf{Revoluzzer} Haben von den Eroberern gehört und wollen diese überführen.
+\end{itemize}
+
+\subsection{Stationen}
+\textbf{A Eroberer}
+\begin{enumerate}
+    \item Weg zur Tribüne (Location: Weg entlang der Gasse, dann zu Kreuzung und wieder zurück zu Raum 1)
+    \item Begegnung mit Gruppe C. (Location: Gasse)
+    \item Der Händedruck (Location: Kreuzung \textit{Kantstraße, Sandweg})
+    \item Ansprache (Location: 1. Raum auf der Tribüne)
+    \item Weg zur Eroberung (Location: Weg einmal um das Gebäude)
+    \item Die Eroberung (Location: 1. Raum)
+\end{enumerate}
+\textbf{B Bürger}
+\begin{enumerate}
+    \item Weg zur Tribüne (Location: Weg zu Location X und dann entlang der Gasse zurück zu Raum 1)
+    \item Action X (Location X)
+    \item Überzeugung (Location: Gasse)
+    \item Ansprache (Location: 1. Raum vor der Tribüne)
+    \item Weg zur Eroberung (Location: Weg einmal um das Gebäude)
+    \item Die Eroberung (Location: 1. Raum)
+\end{enumerate}
+\textbf{C Revoluzzer}
+\begin{enumerate}
+    \item Das Tribunate - Einzelne Vorträge (Location: 1. Raum)
+    \item Der Konflikt (Location: Gasse)
+    \item Überzeugung (Location: Gasse)
+    \item Evtl. Störung der Ansprache (Location: 1. Raum)
+    \item Die Gleichmachung oder Das Schafott  (Location: 1. Raum)
+\end{enumerate}
 \section{Technische Umsetzung}\label{technische_umsetzung}
    
 \printbibliography
+
+\listoftodos
  
 \end{document}
