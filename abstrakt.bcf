@@ -1923,11 +1923,19 @@
     <bcf:datasource type="file" datatype="bibtex">literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">freud_massen_1993</bcf:citekey>
+    <bcf:citekey order="1">nietzsche_jenseits_2014</bcf:citekey>
     <bcf:citekey order="2">freud_massen_1993</bcf:citekey>
     <bcf:citekey order="3">freud_massen_1993</bcf:citekey>
     <bcf:citekey order="4">freud_massen_1993</bcf:citekey>
     <bcf:citekey order="5">freud_massen_1993</bcf:citekey>
+    <bcf:citekey order="6">freud_massen_1993</bcf:citekey>
+    <bcf:citekey order="7">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="8">hegel_enzyklopadie_1970</bcf:citekey>
+    <bcf:citekey order="9">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="10">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="11">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="12">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="13">freud_gesellschaft_2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

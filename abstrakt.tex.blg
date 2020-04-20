@@ -1,0 +1,5 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'abstrakt.tex.blg'
+[22] biber:313> INFO - === Mo Apr 20, 2020, 23:59:37
+[117] Utils.pm:185> ERROR - Cannot find control file 'abstrakt.tex.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[118] Biber.pm:114> INFO - ERRORS: 1

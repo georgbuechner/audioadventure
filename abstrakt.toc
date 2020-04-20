@@ -1,0 +1,52 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Das Erdbeben aus Chili}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Einleitung}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Gruppe 1}{3}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Der Weg zur Trib\IeC {\"u}ne I}{3}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Die Gasse}{4}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Der Weg zur Trib\IeC {\"u}ne II}{4}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Der H\IeC {\"a}ndedruck}{5}{subsection.1.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.5}Der Weg zur Trib\IeC {\"u}ne III}{6}{subsection.1.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.6}Die Ansprache}{6}{subsection.1.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.7}Weg zur Eroberung}{6}{subsection.1.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.8}Die Eroberung}{6}{subsection.1.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}B - Die B\IeC {\"u}rger}{7}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Die erste Entscheidung}{7}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Weg zur Trib\IeC {\"u}ne I}{7}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}Action X}{7}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.4}Die \IeC {\"U}berzeugung}{7}{subsection.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.5}Die Ansprache}{7}{subsection.1.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.6}Weg zur Eroberung}{7}{subsection.1.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.7}Die Eroberung}{7}{subsection.1.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}C - Die Revoluzzer}{7}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Das Tribunat}{7}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}Der Konflikt}{8}{subsection.1.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}die \IeC {\"U}berzeugung}{8}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.4}St\IeC {\"o}rung der Ansprache (optional)}{8}{subsection.1.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.5}Die Gleichmachung oder Das Schafott}{8}{subsection.1.4.5}

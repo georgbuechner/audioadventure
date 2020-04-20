@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper, 12pt]{report}
 
 \usepackage{secdot} % Dots in Section Numbers
 \usepackage[utf8]{inputenc}
@@ -37,6 +37,11 @@
         }%
   }
 
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{}{0pt}{\Huge\bfseries}
+\newcommand\frontmatter{ \cleardoublepage \pagenumbering{roman}}
+\newcommand\mainmatter{ \cleardoublepage \pagenumbering{arabic}}
+\newcommand\backmatter{ \cleardoublepage \pagenumbering{roman}}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -53,8 +58,10 @@
 \begin{document}
 
 \maketitle
+\frontmatter
 
-\section{Abstrakt}
+
+\chapter*{Abstrakt}
 \textit{Das Erdbeben aus Chili} basiert auf dem Drama Heinrich von Kleists (1807). 
 Die veränderte Form der Inszinierung verlangt ebenfalls eine Veränderung des Textes. 
 In \textit{Das Erdbeben aus Chili} erleben die Teilnehmer*innen das Stück Kleists aus unterschiedlichen Perspektiven, die sie selbst im Laufe der Inszinierung (mit-)entwickeln.
@@ -63,7 +70,7 @@ Neben dem Thema Liebe und Flucht, werden auf inhaltlicher Ebene die Themen Ideol
 Das persönliche Schicksal Jeronimos und Josephes wird dabei auf eine allgemeine Ebene erhoben.
 Die Inszinierung ist dabei inspiriert von Willi Pramels Inszinierung in den Naxus Hallen aus dem Jahre 2016.
 
-\subsection{Audioadventure}
+\section*{Audioadventure}
 Das Konzept des \glqq Audioadventures\grqq{} soll einen Ansatz darstellen die Idee von Edu-Larp (sog. Educational Liveactionroleplaying) auf Theaterformen zu übertragen. 
 Dabei wird das Konzept des \textit{Audiowalks} durch Möglichkeiten des eigenen Interagierens und Intervenierens ergänzt.
 Die Zuschauer*innen (oder besser: Teilnehmer*innen) nehmen das Geschehene nicht wie in klassischen Bühnenstücken visuell, sondern über eine Tonspur wahr und werden dadurch selbst zu Agenten des Geschehens, in dem sie durch eine \glqq Stimme in ihrem Kopf\grqq{} angeleitet werden.
@@ -75,7 +82,7 @@ Durch die Möglichkeit der (Neu-)Konstruktion von Wirklichkeit können bestehend
 In diesem Sinne greift das Konzept des Audioadventures die Grundlegenden Aspekte auf, die Edu-Larp für Bildungsarbeit produktiv macht.
 Durch den (im Gegensatz zum Edu-Larp) stärkeren künstlerischen Aspekt kann die Bildungsarbeit allerdings auf mehreren verschiedenen Ebenen stattfinden: auf der des Spiels und der der Kunst. 
 
-\subsection{Umsetzung}
+\section*{Umsetzung}
 Die Teilnehmer*innen bekommen zu Beginn des Stückes eine url zu ihrer anfänglichen Tonspur gegeben, die sie öffnen sollen.
 Das Stück beginnt gemeinsam in einem dunklen Raum.
 Die \hyperref[einleitung]{Einleitung} hören die Teilnehmer*innen gemeinsam über die Anlage.
@@ -96,10 +103,11 @@ Im Laufe des Audioadventures kann sich die Tonspur der Teilnehmer*innen auf zwei
 \end{itemize}
 Hierzu genauer im Abschnitt \hyperref[technische_umsetzung]{Technische Umsetzung}.
 
+\tableofcontents
+\mainmatter
+\chapter{Das Erdbeben aus Chili}
 
-\section{Das Erdbeben aus Chili}
-
-\subsection{Einleitung}\label{einleitung}
+\section{Einleitung}\label{einleitung}
 \textit{Die Teilnehmer*innen begeben sich in einen spärlich ausgeleuchteten Raum voller Nebel. 
 Auf dem Boden liegen blutbeschmierte, menschengroße Puppen und zerrissene Kleider. 
 Die Puppen sind mit bunter Farbe bemalt, doch die Farbe ist verschmiert und mit Blut überzogen. Keine Musik, aber Geräusche sind zu hören. 
@@ -139,7 +147,7 @@ Wen werden die Leichen nicht noch ewig auf den Augen brennen?\\
 Fühlst du mich? Werde ich dir langsam warm? Nietzsche schreibt: 
 \glqq Wir erdichten uns den größten Teil des Erlebnisses und sind kaum dazu zu zwingen nicht als \glq Erfinder\grq{} irgendeinem Vorgang zuzuschauen. 
 Dies alles will sagen: Wir sind von Grund aus, von alters her \textit{ans Lügen gewöhnt}. Oder, um es tugendhafter und heuchlichericher, kurz: angenehmer auszurücken: 
-Man ist viel mehr Künstler, als man weiß\grqq. 
+Man ist viel mehr Künstler, als man weiß\grqq\footfullcite[][192]{nietzsche_jenseits_2014}. 
 Wie viel dichtest du mir an?\\
 
 Der Staub zerzieht sich. 
@@ -162,8 +170,8 @@ Macht schnell!\\
 Es hat mich so danach verlangt mit dir zu reden? Wirst du mir folgen nachher? 
 Aber lass mich doch noch ein wenig näher an dich heran, indem du dir die Technik zu nutze machst, die sich in deiner Hosentasche versteckt, um mich dann ganz nahe bei deinem Ohr zu habe, dann übernehme ich, als dein Objekt die Führung über dein Erdichten und Erfinden und Künstler-Sein.\\
 
-\subsection{Die erste Entscheidung}
-\subsubsection{Gruppe 1}
+\section{Gruppe 1}
+\subsection{Der Weg zur Tribüne I}
 Ist es so besser? Jetzt bin ich nur für dich da.
 Jetzt bin ich nur für dich da. Wirst du mir folgen? 
 Ist es so besser?
@@ -192,6 +200,8 @@ Wenn einem etwas auffällt, was verdächtig ist, brauchen wir ein Zeichen.
 Wenn einer den Arm hebt, bedeutet das Gefahr und ein jeder drückt sich mit dem Rücken an die nächste Wand. 
 Wollen wir es versuchen?\todo{Check waiting time.} \\
 
+\subsection{Die Gasse}
+
 Verlasse jetzt den Raum und betrete die Straße. 
 Atme den Duft ein, er ist staubig und trocken, aber es ist dein Duft, der Duft, der bald dein Sein wird.
 Laufe langsam an der Hauswand entlang, wir sind auf dem Weg.
@@ -205,6 +215,7 @@ Wenn du magst, zieh, deine Kopfhörer ab und erkunde, was die anderen aus der Kr
 Die dunkle Gasse liegt jetzt hinter uns. 
 Zu viele Gassen sind dunkel geworden.\todo{Insert a Szene of first confrontation between Gruppe A and C}\\
 
+\subsection{Der Weg zur Tribüne II}
 Doch wir laufen weiter geradeaus, um diese Stadt zu befreien.
 Laufe weiter gerade aus, an der Gasse vorbei und die Kantstraße entlang. 
 Wir können schon die Stimmen der Bewohner hören, die uns zujubeln. 
@@ -223,14 +234,21 @@ Achte darauf, dass noch alle beisammen sind.
 Du trägst die Verantwortung!
 Wir kommen zu günstiger Zeit, doch können wir nur als Gruppe stark genug sein.\\
 
+\subsection{Der Händedruck}
+\textit{(Die Teilnehmer*innen befinden sich draußen und laufen auf eine Kreuzung zu. 
+Auf der Kreuzung beginnen sie diese zu umkreisen und gehen nacheinander zu einem Menschen in der Mitte der Kreuzung.
+Sie sind aufgefordert dieser Person die Hand zu geben.
+Tun sie es, so erhalten sie eine Notiz mit einem Satz, den sie evtl. später sprechen müssen.
+Sage sie stattdessen: \glqq \textit{Dir} geben ich nicht die Hand\grqq, so erhalten sie einen neuen QR-Code.)}\\
+
 An der nächsten Kreuzung überquere den Sandweg, dann biege links ab, auf die andere Straßenseite.
-Siehst du denn Menschen in der Mitte der Kreuzung? 
+Siehst du den Menschen in der Mitte der Kreuzung? 
 Er ist unsere Kontaktpersonen.
 Verhalte dich noch unauffällig.
 Überquere jetzt den Sandweg und biege links ab, auf die andere Straßenseite. 
 Überquere den Sandweg und dann die Kantstraße.
 Wenn du die Kantstraße überquert hast, drehe dich nach links und überquere den Sandweg.
-Gehe nun wieder link und überquere die Kantstraße, dann, wieder den Sandweg.
+Gehe nun wieder nach links und überquere die Kantstraße, dann, wieder den Sandweg.
 Kant. Sand. Kant. Sand.
 Während wir so die Kreuzung umkreisen, geht einer nach dem anderen zu der Kontaktperson und gibt ihr die Hand. 
 Aber nicht alle auf einmal.
@@ -239,34 +257,93 @@ Wir müssen unseren eigen Rhythmus finden.
 Wann wirst du gehen, dass du nicht gleichzeitig mit einem anderen gehst?
 Achtet darauf nicht gleichzeitig zu gehen!
 Wir wollen die neuen Herrscher dieser Stadt sein. 
-Alls neue Herrscher müssen wir es im Blut spüren, was die anderen tun wollen.
+Als neue Herrscher müssen wir es im Blut spüren, was die anderen tun wollen.
 Wir sind ein Organismus. Wir müssen ein Organismus sein!
-Wir drehen uns erneut nach links und überqueren ein letztes Mal die Kantstraße und dann wieder links und auch ein letztes Mal den Sand weg. 
+Wir umkreisen weiter die Kreuzung.
+Eine nach der anderen geht zur Kontaktperson.
+Wann wirst du gehen?
+\begin{itemize}
+    \item[] \textit{Die Notwendigkeit der Identität ist die Entwicklung der Idee innerhalb ihrer selbst;\footfullcite[][249]{hegel_grundlinien_2017} Im Lebendigen ist der Zweck in der Materie immanente Bestimmung und Tätigkeit und alle Glieder sind ebenso sich gegenseitig Mittel als Zweck.\footfullcite[][140]{hegel_enzyklopadie_1970} Ihren besonderen Inhalt nimmt die Gesinnung aus den verschiedenen Seiten des Organismus des Staats. Dieser Organismus ist die Entwicklung der Idee zu ihren Unterschieden und zu denren objektiven Wirklichkeit. Diese unterschiedenen Seiten sind so die verschiedenen Gewalten [...] wodurch das Allgemeine sich fortwährend und zwar indem sie durch die Natur des Begriffes bestimmt sind, auf notwendige Weise hervorbringt. [...] - dieser Organismus ist die politische Verfassung.\footATCite[][251]{hegel_grundlinien_2017}}
+\end{itemize}
+
+Wir drehen uns erneut nach links und überqueren ein letztes Mal die Kantstraße und dann wieder links und auch ein letztes Mal den Sandweg. 
 Danach geht es geradeaus, zur Tribüne! 
 Laufe jetzt gerade aus, die Kant Straße zurück. 
-Unsere Zeit ist gekommen, wir werden sie uns nehmen!\todo{Einfügung Hegel: Staat als Organismus}\\
+Unsere Zeit ist gekommen, wir werden sie uns nehmen!\\
 
-\subsubsection{Gruppe 2}
-\textit{Während die anderen den Raum verlassen haben geht langsam das Licht wieder an und beleuchtet die blutbeschmierten Puppen}
-
-\subsubsection{Gruppe 3}
-
-\subsection{Die Tribüne}
-
-\subsubsection{Gruppe 1}
+\subsection{Der Weg zur Tribüne III}
 Das Parlament ist gefallen, lang lebe das Parlament, wir sind das neue Parlament!
 Einige werden schon auf uns warten, wenn wir ankommen.
 
+\subsection{Die Ansprache}
 
-\section{Ideen und Konzepte}\label{ideen_konzepte}
-\subsection{Gruppen}
+\subsection{Weg zur Eroberung}
+
+\subsection{Die Eroberung}
+\textit{(Die Teilnehmer*innen betreten wieder den ersten Raum. 
+Die früheren blutbeschmierten Puppen sind \hyperref[zahl_der_puppen]{teilweise} weggeräumt.
+Statt ihrer stehen, liegen, hängen im Raum verteilt unbemalte, nicht blutverschmierte Puppen.
+Außerdem stehen Eimer mit Farbe und liegen Pinsel hier und Dort auf dem Boden, zwischen den Puppen umher.)}\\
+
+Wir beginnen nun damit die Stadt auszumalen, wie es uns vorschwebte.
+Nimm dir einen Pinsel, trau dich, wenn du magst, nimm deine Hände. 
+Bearbeiten die Menschen, die dir nun Untertan geworden sind!\\
+
+\begin{itemize}
+    \item[] \textit{Das merkwürdigste und zugleich wichtigste Phänomen der Massenbildung ist nun die bei jedem Einzelnen hevorgerufene Steigerung der Affektivität [...].
+    Man kann sagen, meint McDougall, dass die Affekte der Menschen kaum unter anderen Bedingungen zu solcher Höhe anwachsen, wie es in einer Masse geschehen kann, und zwar ist es eine genussreiche Empfindung für die Beteiligten, sich so schrankenlos ihren Leidenschaften hinzugeben und dabei in der Masse aufzugehen, das Gefühl ihrer individuellen Abgrenzung zu verlieren.
+    Dies Mitfortgerissenwerden der Individuen erklärt McDougall [...] durch die uns bereits bekannte Gefühlsansteckung. [...]
+    Dieser automatische Zwang wird um so stärker, an je mehr Personen er gleichzeitig derselbe Affekt bemerkbar ist.
+    Dann schweigt die Kritik des Einzelnen, und er lässt sich in denselben Affekt gleiten. [...]
+    die gröberen und einfacheren Gefühlsregungen haben die größere Aussicht, sich auf solche Weise in einer Masse zu verbreiten.\footfullcite[][79]{freud_gesellschaft_2013}}
+
+    \textit{[...] Die Masse macht dem Einzelnen den Eindruck einer unbeschränkten Macht und einer unbesiegbaren Gefahr.
+    Sie hat sich für den Augenblick an die Stelle der gesamten menschlichen Gesellschaft gesetz, welche die Trägerin der Autorität ist, deren Strafen man gefürchtet, der zuliebe man sich so viele Hemmungen auferlegt hat.
+    [...] Im Gehorsam gegen die neue Autorität darf man sein früheres \glqq Gewissen\grqq{} außer Tätigkeit setzen und dabei der Lockung des Lustgewinns nachgeben. [...]\footATCite[][79 ff.]{freud_gesellschaft_2013}}
+\end{itemize}
+    
+
+\section{B - Die Bürger}
+
+\subsection{Die erste Entscheidung}
+
+\subsection{Weg zur Tribüne I}
+
+\subsection{Action X}
+
+\subsection{Die Überzeugung}
+
+\subsection{Die Ansprache}
+
+\subsection{Weg zur Eroberung}
+
+\subsection{Die Eroberung}
+
+\section{C - Die Revoluzzer}
+
+\subsection{Das Tribunat}
+\textit{Während die anderen den Raum verlassen haben geht langsam das Licht wieder an und beleuchtet die blutbeschmierten Puppen}
+
+\subsection{Der Konflikt}
+
+\subsection{die Überzeugung}
+
+\subsection{Störung der Ansprache (optional)}
+
+\subsection{Die Gleichmachung oder Das Schafott}
+
+
+\backmatter
+
+\chapter* {Ideen und Konzepte}\label{ideen_konzepte}
+\section*{Gruppen}
 \begin{itemize}
     \item[A] \textbf{Eroberer} Wollen die Stadt Chili einnehmen.
     \item[B] \textbf{Bürger} Haben von der Ankunft der Eroberer gehört und wollen sie in Empfang nehmen.
     \item[C] \textbf{Revoluzzer} Haben von den Eroberern gehört und wollen diese überführen.
 \end{itemize}
 
-\subsection{Stationen}
+\section*{Stationen}
 \textbf{A Eroberer}
 \begin{enumerate}
     \item Weg zur Tribüne (Location: Weg entlang der Gasse, dann zu Kreuzung und wieder zurück zu Raum 1)
@@ -293,7 +370,29 @@ Einige werden schon auf uns warten, wenn wir ankommen.
     \item Evtl. Störung der Ansprache (Location: 1. Raum)
     \item Die Gleichmachung oder Das Schafott  (Location: 1. Raum)
 \end{enumerate}
-\section{Technische Umsetzung}\label{technische_umsetzung}
+
+\section*{Brainstorm}
+
+\subsection*{Der Zettel}
+In \glqq Die Gasse\grqq{} erhalten die Spieler*innen (Gruppe A + C) kurz Zeit sich zu unterhalten.
+Hier können die Spieler*innen aus C denen aus A das Codewort mitteilen:
+\glqq Sagt zu dem Mann, dem ihr die Hände geben sollt: \glq \textit{Dir} gebe ich nicht die Hand!\grq\grqq.
+Sagen die Spieler*innen tatsächlich \glqq Die geben ich nicht die Hand\grqq{} erhalten die Spieler*innen statt dem Zettel mit dem Text für die Ansprache einen Zettel mit dem QR-Code zu einer neuen Gruppe.
+Falls Spieler*innen Teil dieser Gruppe werden, weiß C von der Location der Ansprache.
+
+\subsection*{Reden}
+Es ist zweifelhaft, ob man den Teilnehmer*innen zutrauen sollte zu reden, oder ob dies komische Momente, wo sich die Teilnehmer*innen evtl. auf ungute Weise unwohl fühlen, erzeugt.
+Alternativ müsste auch dies über die Kopfhörer laufen. 
+Ggf. Könnte alle aber zunächst als von den Teilnehmer*innen gesprochen angesehen werden, Alternativen müssten diskutiert werden, bzw. evtl. auf das Publikum angepasst werden. 
+Generell ist hier das Problem, dass die Inszinierung (auch) auf dem Prinzip der Überraschung funktioniert: 
+die Teilnehmer*innen wissen noch nicht, was sie erwartet.
+
+\subsection*{Zahl der Puppen}\label{zahl_der_puppen}
+Evtl. könnte die Anzahl der weggeräumten, blutbeschmierten Puppen abhängen von der Zahl der Menschen, die sich letztendlich den Revoluzzern angehängt hat. 
+Oder generell der zahl an Menschen, die ihre Spur gewechselt haben.
+Es wäre dann noch die Frage welcher Fall für mehr oder weniger Puppen sorgt...
+
+\chapter*{Technische Umsetzung}\label{technische_umsetzung}
    
 \printbibliography
 

@@ -19,6 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{freud_gesellschaft_2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=58227b8cb75750689aafd0bdb2b63408}{%
+           family={Freud},
+           familyi={F\bibinitperiod},
+           given={Sigmund},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main}%
+      }
+      \list{publisher}{1}{%
+        {S. Fischer}%
+      }
+      \strng{namehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{fullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{bibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorbibnamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authornamehash}{58227b8cb75750689aafd0bdb2b63408}
+      \strng{authorfullhash}{58227b8cb75750689aafd0bdb2b63408}
+      \field{labelalpha}{Fre13}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Elfte Auflage}
+      \field{number}{Band 9}
+      \field{series}{Freud-Studienausgabe in 10 Bänden}
+      \field{shorttitle}{Gesellschaft und Religion}
+      \field{title}{Fragen der Gesellschaft. Ursprünge der Religion}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
     \entry{freud_massen_1993}{book}{}
       \name{author}{1}{}{%
         {{hash=58227b8cb75750689aafd0bdb2b63408}{%
@@ -48,6 +81,102 @@
       \field{shorttitle}{Massenpsychologie}
       \field{title}{Massenpsychologie und Ich-Analyse, Die Zukunft einer Illusion}
       \field{year}{1993}
+      \field{dateera}{ce}
+    \endentry
+    \entry{hegel_grundlinien_2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=df20d631cfca357920e74d40cf5085e7}{%
+           family={Hegel},
+           familyi={H\bibinitperiod},
+           given={Georg\bibnamedelimb Wilhelm\bibnamedelima Friedrich},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hamburg}%
+      }
+      \list{publisher}{1}{%
+        {Felix Meiner Verlag}%
+      }
+      \strng{namehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{fullhash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{bibnamehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{authorbibnamehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{authornamehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{authorfullhash}{df20d631cfca357920e74d40cf5085e7}
+      \field{labelalpha}{Heg17}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Vollständig neu erarbeitete Studienausgabe ; Jubiläumsausgabe zum 150jährigen Bestehen der "Philosophischen Bibliothek}
+      \field{number}{Band 700}
+      \field{series}{Philosophische Bibliothek}
+      \field{shorttitle}{Grundlinien der Philosophie des Rechts}
+      \field{title}{Grundlinien der Philosophie des Rechts: auf der Grundlage der Edition des Textes in den Gesammelten Werken Band 14}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Table of Contents PDF:/home/fux/Zotero/storage/7LRM3Q8H/Hegel - 2017 - Grundlinien der Philosophie des Rechts auf der Gr.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{hegel_enzyklopadie_1970}{book}{}
+      \name{author}{1}{}{%
+        {{hash=df20d631cfca357920e74d40cf5085e7}{%
+           family={Hegel},
+           familyi={H\bibinitperiod},
+           given={Georg\bibnamedelimb Wilhelm\bibnamedelima Friedrich},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt a. M.}%
+      }
+      \strng{namehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{fullhash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{bibnamehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{authorbibnamehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{authornamehash}{df20d631cfca357920e74d40cf5085e7}
+      \strng{authorfullhash}{df20d631cfca357920e74d40cf5085e7}
+      \field{labelalpha}{Heg70}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Bd. 8}
+      \field{series}{Werke in 20 Bänden.}
+      \field{title}{Enzyklopädie der philosophien Wissenschaften}
+      \field{year}{1970}
+      \field{dateera}{ce}
+    \endentry
+    \entry{nietzsche_jenseits_2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d199ea59b68f8edfff8c5ae07d60d68}{%
+           family={Nietzsche},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Deutscher Taschenbuch Verlag}%
+      }
+      \strng{namehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{fullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{bibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorbibnamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authornamehash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \strng{authorfullhash}{5d199ea59b68f8edfff8c5ae07d60d68}
+      \field{labelalpha}{Nie14}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Neuausgabe 1999, 13. Auflage 2014}
+      \field{number}{Band 5}
+      \field{series}{kritische Studienausgabe in 15 Bänden; KSA}
+      \field{title}{Jenseits von Gut und Böse. Zur Genealogie der Moral}
+      \field{year}{2014}
       \field{dateera}{ce}
     \endentry
   \enddatalist
