@@ -7,10 +7,10 @@
 
 \usepackage{fancyhdr}
 
-\usepackage[
-    textsize=tiny
-    ]{todonotes}
+\usepackage[textwidth=90, backgroundcolor=blue]{todonotes}
 \usepackage{hyperref}
+
+\usepackage{soul}
 
 \usepackage[autostyle]{csquotes}
 \usepackage[
@@ -36,12 +36,14 @@
                     {\footnote{#1 \citeauthor{#3}, \emph{\citefield{#3}{shorttitle}}, S. #2.}}% 
         }%
   }
+\DeclareDocumentCommand \qq{m} {\glqq #1\grqq}
 
 \usepackage{titlesec}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{}{0pt}{\Huge\bfseries}
 \newcommand\frontmatter{ \cleardoublepage \pagenumbering{roman}}
 \newcommand\mainmatter{ \cleardoublepage \pagenumbering{arabic}}
 \newcommand\backmatter{ \cleardoublepage \pagenumbering{roman}}
+
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -147,7 +149,7 @@ Wen werden die Leichen nicht noch ewig auf den Augen brennen?\\
 Fühlst du mich? Werde ich dir langsam warm? Nietzsche schreibt: 
 \glqq Wir erdichten uns den größten Teil des Erlebnisses und sind kaum dazu zu zwingen nicht als \glq Erfinder\grq{} irgendeinem Vorgang zuzuschauen. 
 Dies alles will sagen: Wir sind von Grund aus, von alters her \textit{ans Lügen gewöhnt}. Oder, um es tugendhafter und heuchlichericher, kurz: angenehmer auszurücken: 
-Man ist viel mehr Künstler, als man weiß\grqq\footfullcite[][192]{nietzsche_jenseits_2014}. 
+Man ist viel mehr Künstler, als man weiß\grqq\footfullcite[][114]{nietzsche_jenseits_2014}. 
 Wie viel dichtest du mir an?\\
 
 Der Staub zerzieht sich. 
@@ -179,10 +181,11 @@ Wenn du mir vertraust, dann verlasse jetzt den Raum durch die große Tür.
 Gehe langsam und vorsichtig. 
 Wir wollen nicht gehört oder gesehen werden. 
 Verlasse langsam den Raum durch die große Tür.\\
+
 Die Zeit ist gekommen, dass wir uns bewegen und die über unseren Köpfen zusammengeschlagenen Arme sinken lassen und uns nicht mehr verstecken. 
 Die Punkt ist gekommen, an dem wir die gefallene Stadt uns zu eigen machen können. 
 Wir versammeln uns in dem nächste Raum und warten, bis alle eingetroffen sind.
-Wir sind solidarisch, wir bleiben zusammen.
+Wir sind solidarisch, wir bleiben zusammen. 
 Wartet auf die anderen. Wir sind das Warten und die Gedulde gewohnt und wollen darum jetzt nichts überstürzen.
 Wenn so eine Stadt zusammenbricht und in die Knie gezwungen wird, ist es für die ewig Wartenden, die Lauernden manchmal eine Freude jetzt endlich ausbrechen zu können. 
 Für uns geborenen Räthselrather, ist so manche Sonnenfinsternis, das neue, noch nie so offen gewesene Meer. 
@@ -198,7 +201,8 @@ Sind wir beisammen, haben wir uns gefunden?
 Wir müssen uns aufeinander verlassen können. 
 Wenn einem etwas auffällt, was verdächtig ist, brauchen wir ein Zeichen.
 Wenn einer den Arm hebt, bedeutet das Gefahr und ein jeder drückt sich mit dem Rücken an die nächste Wand. 
-Wollen wir es versuchen?\todo{Check waiting time.} \\
+Wollen wir es versuchen?
+\textit{(Nach einer kurzen Pause:)} Versuche es nur. \todo[noline]{Check waiting time.} \\
 
 \subsection{Die Gasse}
 
@@ -208,12 +212,15 @@ Laufe langsam an der Hauswand entlang, wir sind auf dem Weg.
 Chili ist eine uralte Stadt, schon lange haben wir geplant sie von ihren Ketten zu befreien. 
 Heute sind wir lebendig, wir spüren, dass die Zeit gekommen ist.
 Wir müssen jetzt entschlossen gemeinsam gehen und Chili in die Stadt verwandeln, wie wir sie seit je her gesehen haben.
-Viel zu lange stand die Stadt unter der Herrschaft der anderen. \\
+Viel zu lange stand die Stadt unter der Herrschaft der anderen. Deren, die es nicht verdient haben.
+Sie hatten erkannt, dass sie schwach sind und haben uns ihre Schwäche aufgedrängt. 
+Doch wir meinen: Das Ressentiment muss sterben!\\
 
 Wir passieren eine kleine Gasse, hier treiben sich die Aufständigen herum die gegen den Geist der Stadt ihr eigenes durchzusetzen versuchen.
+Sie wollen dem Ressentiment die Hand reichen und mit der anderen noch die letzten vornehmen Züge der Stadt entreißen.
 Wenn du magst, zieh, deine Kopfhörer ab und erkunde, was die anderen aus der Krise der Stadt machen wollen, doch sei gewarnt, sie sind nicht auf unserer Seite.
 Die dunkle Gasse liegt jetzt hinter uns. 
-Zu viele Gassen sind dunkel geworden.\todo{Insert a Szene of first confrontation between Gruppe A and C}\\
+Zu viele Gassen sind dunkel geworden in letzter Zeit.\todo{Insert a Szene of first confrontation between Gruppe A and C}\\
 
 \subsection{Der Weg zur Tribüne II}
 Doch wir laufen weiter geradeaus, um diese Stadt zu befreien.
@@ -225,7 +232,7 @@ Laufe weiter die Kantstraße entlang.
 Der Staub verzieht sich. 
 Er macht seinen neuen Herren Platz. 
 Er gibt Raum.
-Der Absatz unserer Sohlen hallt durch die leeren Straßen, und entfaltet sich, wie ein rasendes Phantom in der Stadt.
+Der Absatz unserer Stiefel hallt durch die leeren Straßen, und entfaltet sich, wie ein rasendes Phantom in der Stadt.
 Bald werden alle von uns hören.
 Einige erwarten schon unsere Ankunft, wie werden sie uns begrüßen?
 Wie werden wir sie grüßen und anreden?
@@ -239,7 +246,7 @@ Wir kommen zu günstiger Zeit, doch können wir nur als Gruppe stark genug sein.
 Auf der Kreuzung beginnen sie diese zu umkreisen und gehen nacheinander zu einem Menschen in der Mitte der Kreuzung.
 Sie sind aufgefordert dieser Person die Hand zu geben.
 Tun sie es, so erhalten sie eine Notiz mit einem Satz, den sie evtl. später sprechen müssen.
-Sage sie stattdessen: \glqq \textit{Dir} geben ich nicht die Hand\grqq, so erhalten sie einen neuen QR-Code.)}\\
+Sagen sie stattdessen: \glqq \textit{Dir} geben ich nicht die Hand\grqq, so erhalten sie einen neuen QR-Code.)}\\
 
 An der nächsten Kreuzung überquere den Sandweg, dann biege links ab, auf die andere Straßenseite.
 Siehst du den Menschen in der Mitte der Kreuzung? 
@@ -253,7 +260,7 @@ Kant. Sand. Kant. Sand.
 Während wir so die Kreuzung umkreisen, geht einer nach dem anderen zu der Kontaktperson und gibt ihr die Hand. 
 Aber nicht alle auf einmal.
 Verhalte dich unauffällig.
-Wir müssen unseren eigen Rhythmus finden.
+Wir müssen unseren eigenen Rhythmus finden.
 Wann wirst du gehen, dass du nicht gleichzeitig mit einem anderen gehst?
 Achtet darauf nicht gleichzeitig zu gehen!
 Wir wollen die neuen Herrscher dieser Stadt sein. 
@@ -263,17 +270,52 @@ Wir umkreisen weiter die Kreuzung.
 Eine nach der anderen geht zur Kontaktperson.
 Wann wirst du gehen?
 \begin{itemize}
-    \item[] \textit{Die Notwendigkeit der Identität ist die Entwicklung der Idee innerhalb ihrer selbst;\footfullcite[][249]{hegel_grundlinien_2017} Im Lebendigen ist der Zweck in der Materie immanente Bestimmung und Tätigkeit und alle Glieder sind ebenso sich gegenseitig Mittel als Zweck.\footfullcite[][140]{hegel_enzyklopadie_1970} Ihren besonderen Inhalt nimmt die Gesinnung aus den verschiedenen Seiten des Organismus des Staats. Dieser Organismus ist die Entwicklung der Idee zu ihren Unterschieden und zu denren objektiven Wirklichkeit. Diese unterschiedenen Seiten sind so die verschiedenen Gewalten [...] wodurch das Allgemeine sich fortwährend und zwar indem sie durch die Natur des Begriffes bestimmt sind, auf notwendige Weise hervorbringt. [...] - dieser Organismus ist die politische Verfassung.\footATCite[][251]{hegel_grundlinien_2017}}
+    \item[] \textit{Die Notwendigkeit der Identität ist die Entwicklung der Idee innerhalb ihrer selbst;\footfullcite[][249]{hegel_grundlinien_2017} Im Lebendigen ist der Zweck in der Materie immanente Bestimmung und Tätigkeit und alle Glieder sind ebenso sich gegenseitig Mittel als Zweck.\footfullcite[][140]{hegel_enzyklopadie_1970} Ihren besonderen Inhalt nimmt die Gesinnung aus den verschiedenen Seiten des Organismus des Staats. Dieser Organismus ist die Entwicklung der Idee zu ihren Unterschieden und zu deren objektiven Wirklichkeit. Diese unterschiedenen Seiten sind so die verschiedenen Gewalten [...] wodurch das Allgemeine sich fortwährend und zwar indem sie durch die Natur des Begriffes bestimmt sind, auf notwendige Weise hervorbringt. [...] - dieser Organismus ist die politische Verfassung.\footATCite[][251]{hegel_grundlinien_2017}}
 \end{itemize}
 
-Wir drehen uns erneut nach links und überqueren ein letztes Mal die Kantstraße und dann wieder links und auch ein letztes Mal den Sandweg. 
+Wir drehen uns erneut nach links und überqueren ein letztes Mal die Kantstraße, dann wieder links und auch ein letztes Mal den Sandweg. 
 Danach geht es geradeaus, zur Tribüne! 
 Laufe jetzt gerade aus, die Kant Straße zurück. 
 Unsere Zeit ist gekommen, wir werden sie uns nehmen!\\
 
 \subsection{Der Weg zur Tribüne III}
-Das Parlament ist gefallen, lang lebe das Parlament, wir sind das neue Parlament!
+Während so der Absatz unserer Stiefel durch die leeren Straßen hallt, hallt durch unseren Kopf schon der Satz:
+\glqq Das Parlament ist gefallen. Lang lebe das Parlament, wir sind das neue Parlament!\grqq{}
 Einige werden schon auf uns warten, wenn wir ankommen.
+Es sind die, die das Parlament von Beginn an nicht leiden konnten.
+Was unsere Stadt vor dem war, daran konnten sie sich noch erinnern. 
+Sie haben von uns gehört und jetzt fühlen sie ihre eigene Kraft in sich zurückkehren, dass sie diejenigen sind, die gehört werden müssen.
+Alle die, die heute kommen, die den alten Geist der Stadt noch in sich tragen werden unsere wahren Untertan sein!
+Der Rest, die sich damals auf den Thron setzten, um aus einem demokratischen Gefühl heraus, diejenigen beschützen wollten, die sie selbst waren, wird zusammen mit all den \glqq Neuen Werten\grqq{} untergehen. 
+Laufe weiter die Kantstraße hinunter, bald sind wir da, bald wird man uns hören. 
+Das durch die Stadt hallende Klopfen unserer Absätze trägt den heiligen Satz vor uns her: 
+\glqq Das Parlament ist gefallen. Lang lebe das Parlament!\grqq\\
+\begin{itemize}
+    \item[] \em
+    Den Fingerzeig zum \so{rechten} Wege, gab mir die Frage, was eigentlich die von den verschiedenen Sprachen ausgeprägte Bezeichnung des \qq{Guten} in etymologischer Hinsicht zu bedeuten habe: 
+    da fand ich, dass sie allesammt auf die \so{gleiche Begriffs-Verwandlung} zurückleiten, - dass überall \qq{vornehm}, \qq{edel} im ständischen Sinne der Grundbegriff ist, aus dem sich \qq{gut} im Sinne von \qq{seelisch-vornehm}, \qq{edel}, von \qq{seelisch-hochgeartet}, \qq{seelisch-privilegiert} mit Notwendigkeit heraus entwickelt: eine Entwicklung, die immer parallel mit jener anderen läuft, welche \qq{gemein}, \qq{pöbelhaft}, \qq{niedrig}, schließlich in den Begriff \qq{schlecht} übergehen macht. 
+    Das beredteste Beispiel für das Letztere ist das deutsche Wort \qq{schlecht} selber: 
+    als welches mit \qq{schlicht} identisch ist - vergleiche \qq{schlechtweg}, \qq{schlechterdings} - und ursprünglich den schlichten, den gemeinen Mann noch ohne einen verdächtigen Seitenblick, einfach im Gegensatz zum Vornehmen bezeichnete.\footATCite[][261]{nietzsche_jenseits_2014}
+\end{itemize}
+
+Sind wird langsam angekommen? 
+Fühlen wir uns sicher in unserem Vorhaben?
+Wir sehen das Tor zum Palast zu unserer linken und wir fühlen uns sicher! 
+Unsere Zeit ist gekommen.
+Überquere die Straße und gehe nach links durch das Tor. \todo[noline]{Thinking about which group arrives first}
+Lass die staubigen Straßen hinter dir, du bist schon lang genug auf ihnen gelaufen. 
+Es wird Zeit!
+Gehe durch das Tor und betrete den Palast.
+Bist du jetzt froh mir gefolgt zu sein? \\
+
+Durchschreite das Foyer und gehe durch ein weiteres Tor.\todo[noline]{Evtl. empfiehlt es sich für Begin und Ende den gleichen Raum, aber für diese Szene einen anderen zu verwenden.}
+Siehst du, wie links und rechts die Menschen stehen dir zuzujubeln?
+Sie begrüßen dich. Dich! Sie sind wegen dir hierher gekommen.
+Gehe auch durch das zweite Tor und du betrittst den großen Saal. 
+Hier stehen zwei mal zwei Reihen von Stühlen. 
+Eine dieser Reihen steht auch der Tribüne. 
+Dort ist dein Platz. 
+Nehme Platz auf einem der Stühle auf der Tribüne.
 
 \subsection{Die Ansprache}
 
@@ -391,6 +433,9 @@ die Teilnehmer*innen wissen noch nicht, was sie erwartet.
 Evtl. könnte die Anzahl der weggeräumten, blutbeschmierten Puppen abhängen von der Zahl der Menschen, die sich letztendlich den Revoluzzern angehängt hat. 
 Oder generell der zahl an Menschen, die ihre Spur gewechselt haben.
 Es wäre dann noch die Frage welcher Fall für mehr oder weniger Puppen sorgt...
+
+\subsection*{Die Reden der Gruppe A}
+Eine Person könnte Zizek-like so ganz offensichtlich das Motiv der Rechten präsentieren, indem er klar sagt, unsere Werte: Christentum, Gott, etc., etc., aber dahinter steht, dass du deine Trieben ausleben darfst.
 
 \chapter*{Technische Umsetzung}\label{technische_umsetzung}
    

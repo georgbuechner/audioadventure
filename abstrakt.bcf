@@ -1933,9 +1933,11 @@
     <bcf:citekey order="8">hegel_enzyklopadie_1970</bcf:citekey>
     <bcf:citekey order="9">hegel_grundlinien_2017</bcf:citekey>
     <bcf:citekey order="10">hegel_grundlinien_2017</bcf:citekey>
-    <bcf:citekey order="11">freud_gesellschaft_2013</bcf:citekey>
-    <bcf:citekey order="12">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="11">nietzsche_jenseits_2014</bcf:citekey>
+    <bcf:citekey order="12">nietzsche_jenseits_2014</bcf:citekey>
     <bcf:citekey order="13">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="14">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="15">freud_gesellschaft_2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
