@@ -1,15 +1,15 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[0] Config.pm:305> INFO - Logfile is 'abstrakt.blg'
-[18] biber:313> INFO - === Mi Apr 22, 2020, 00:02:51
-[33] Biber.pm:371> INFO - Reading 'abstrakt.bcf'
-[73] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
-[82] Biber.pm:3981> INFO - Processing section 0
-[88] Biber.pm:4154> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[89] bibtex.pm:1468> INFO - LaTeX decoding ...
-[105] bibtex.pm:1294> INFO - Found BibTeX data source 'literatur.bib'
-[127] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[127] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[127] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de_DE'
-[127] Biber.pm:3815> INFO - No sort tailoring available for locale 'de_DE'
-[131] bbl.pm:617> INFO - Writing 'abstrakt.bbl' with encoding 'UTF-8'
-[133] bbl.pm:720> INFO - Output to abstrakt.bbl
+[1] Config.pm:302> INFO - This is Biber 2.9
+[1] Config.pm:305> INFO - Logfile is 'abstrakt.blg'
+[37] biber:313> INFO - === Do Apr 23, 2020, 01:42:23
+[58] Biber.pm:371> INFO - Reading 'abstrakt.bcf'
+[132] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
+[149] Biber.pm:3981> INFO - Processing section 0
+[160] Biber.pm:4154> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[161] bibtex.pm:1468> INFO - LaTeX decoding ...
+[184] bibtex.pm:1294> INFO - Found BibTeX data source 'literatur.bib'
+[224] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[224] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[224] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de_DE'
+[224] Biber.pm:3815> INFO - No sort tailoring available for locale 'de_DE'
+[232] bbl.pm:617> INFO - Writing 'abstrakt.bbl' with encoding 'UTF-8'
+[234] bbl.pm:720> INFO - Output to abstrakt.bbl
