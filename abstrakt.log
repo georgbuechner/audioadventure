@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.2)  23 APR 2020 01:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.2)  27 APR 2020 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1721,12 +1721,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 336.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 336.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 338.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 338.
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
  []
 
@@ -1737,48 +1733,141 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 343.
+(babel)             in language  on input line 338.
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
+Overfull \hbox (23.42291pt too wide) in paragraph at lines 347--351
+[]\OT1/cmr/m/it/12 Aber ei-nes ha-ben sie ver-ges-sen: die-ser Staat, die-ser V
+ornehmen-Organismus,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 387.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 387.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 387.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 387.
+[8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 406.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 406.
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--416
 
  []
 
 
-Overfull \hbox (3.93376pt too wide) in paragraph at lines 358--359
+Overfull \hbox (6.98094pt too wide) in paragraph at lines 418--420
+[]\OT1/cmr/m/it/12 Also, fort-an, ihr ho-hen Geis-ter, schafft euch die ein-zi-
+ge men-schenw[]urdige
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 427.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 427.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 427.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 427.
+[9]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 453.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 453.
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--462
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 470.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 470.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 470.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 470.
+[10]
+Overfull \hbox (3.93376pt too wide) in paragraph at lines 473--474
 []\OT1/cmr/m/it/12 [...] Die Mas-se macht dem Ein-zel-nen den Ein-druck ei-ner 
 un-be-schr[]ankten
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 362.
+(babel)             in language  on input line 477.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 362.
+(babel)             in language  on input line 477.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 364.
+(babel)             in language  on input line 479.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 364.
+(babel)             in language  on input line 479.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 366.
+(babel)             in language  on input line 481.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 366.
+(babel)             in language  on input line 481.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 368.
+(babel)             in language  on input line 483.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 368.
+(babel)             in language  on input line 483.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 370.
+(babel)             in language  on input line 485.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 370.
+(babel)             in language  on input line 485.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 487.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 372.
+(babel)             in language  on input line 487.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 491.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 491.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 493.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 493.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 495.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 495.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 497.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 497.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1786,46 +1875,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 500.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 500.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 500.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 376.
-[8]
+(babel)             in language  on input line 500.
+[11]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 500.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 500.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 502.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 378.
+(babel)             in language  on input line 502.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 380.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 380.
+(babel)             in language  on input line 504.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 506.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 382.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 385.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 385.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 387.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 387.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 389.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 389.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 391.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 391.
+(babel)             in language  on input line 506.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1834,43 +1907,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 394.
+(babel)             in language  on input line 509.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 394.
+(babel)             in language  on input line 509.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 394.
+(babel)             in language  on input line 509.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 394.
-[9]
-Overfull \hbox (17.57979pt too wide) in paragraph at lines 401--402
+(babel)             in language  on input line 509.
+[12]
+Overfull \hbox (17.57979pt too wide) in paragraph at lines 516--517
 []\OT1/cmr/bx/n/12 Revoluzzer \OT1/cmr/m/n/12 Ha-ben von den Er-obe-rern geh[]o
 rt und wol-len die-se []uberf[]uhren. 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 421.
+(babel)             in language  on input line 536.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 421.
+(babel)             in language  on input line 536.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 421.
+(babel)             in language  on input line 536.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 421.
+(babel)             in language  on input line 536.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.421     \item D
+l.536     \item D
                  ie Eroberung (Location: 1. Raum) [1
 
 
 ]
-Overfull \hbox (8.06671pt too wide) in paragraph at lines 442--447
+Overfull \hbox (8.06671pt too wide) in paragraph at lines 557--562
 \OT1/cmr/m/n/12 Kopfh[]orer lau-fen. Ggf. K[]onnte al-le aber zun[]achst als vo
 n den Teil-neh-mer*innen
  []
 
 
-Overfull \hbox (11.51112pt too wide) in paragraph at lines 449--452
+Overfull \hbox (11.51112pt too wide) in paragraph at lines 564--567
 \OT1/cmr/m/n/12 Evtl. k[]onnte die An-zahl der weg-ger[]aumten, blut-be-schmier
 -ten Pup-pen abh[]angen
  []
@@ -1882,18 +1955,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 452.
+(babel)             in language  on input line 567.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 452.
+(babel)             in language  on input line 567.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 452.
+(babel)             in language  on input line 567.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 452.
+(babel)             in language  on input line 567.
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.452 
+l.567 
        [2]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1902,43 +1975,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 579.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 579.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 579.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 579.
 pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.456 \chapter
+l.579 \chapter
               *{Technische Umsetzung}\label{technische_umsetzung} [3]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 458.
+(babel)             in language  on input line 582.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 458.
+(babel)             in language  on input line 582.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 458.
+(babel)             in language  on input line 582.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 458.
+(babel)             in language  on input line 582.
  [4
 
 ]
-Overfull \hbox (0.86977pt too wide) in paragraph at lines 459--459
+Overfull \hbox (0.86977pt too wide) in paragraph at lines 583--583
 []\OT1/cmr/m/n/12 Georg Wil-helm Fried-rich He-gel. \OT1/cmr/m/it/12 En-zy-klop
 []adie der phi-lo-so-phien Wis-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 461.
+(babel)             in language  on input line 585.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 461.
+(babel)             in language  on input line 585.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 461.
+(babel)             in language  on input line 585.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 461.
+(babel)             in language  on input line 585.
 [5
 
 ] (./abstrakt.tdo)
@@ -1946,33 +2019,33 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout8 = `abstrakt.tdo'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 462.
+(babel)             in language  on input line 586.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 462.
+(babel)             in language  on input line 586.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 462.
+(babel)             in language  on input line 586.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 462.
+(babel)             in language  on input line 586.
  [6
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 462.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 462.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
  (./abstrakt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 462.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 462.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
 Package rerunfilecheck Info: File `abstrakt.out' has not changed.
 (rerunfilecheck)             Checksum: 1683AD347C18D6E05036FAB21853625F;1739.
 Package logreq Info: Writing requests to 'abstrakt.run.xml'.
 \openout1 = `abstrakt.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 462.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 586.
  ) 
 Here is how much of TeX's memory you used:
- 32441 strings out of 492982
- 620219 string characters out of 6134897
- 1043094 words of memory out of 5000000
- 35529 multiletter control sequences out of 15000+600000
+ 32463 strings out of 492982
+ 620557 string characters out of 6134897
+ 1042095 words of memory out of 5000000
+ 35543 multiletter control sequences out of 15000+600000
  537707 words of font info for 46 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  62i,11n,76p,10406b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1983,12 +2056,13 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti12.pfb>
-Output written on abstrakt.pdf (19 pages, 180326 bytes).
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on abstrakt.pdf (22 pages, 195507 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,32 +21,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.7}Weg zur Eroberung}{8}{subsection.1.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.8}Die Eroberung}{8}{subsection.1.2.8}
+\contentsline {subsection}{\numberline {1.2.8}Die Eroberung}{10}{subsection.1.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}B - Die B\IeC {\"u}rger}{9}{section.1.3}
+\contentsline {section}{\numberline {1.3}B - Die B\IeC {\"u}rger}{11}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Die erste Entscheidung}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Die erste Entscheidung}{11}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Weg zur Trib\IeC {\"u}ne I}{9}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Weg zur Trib\IeC {\"u}ne I}{11}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Action X}{9}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Action X}{11}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Die \IeC {\"U}berzeugung}{9}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}Die \IeC {\"U}berzeugung}{11}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Die Ansprache}{9}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.5}Die Ansprache}{11}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}Weg zur Eroberung}{9}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.6}Weg zur Eroberung}{12}{subsection.1.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.7}Die Eroberung}{9}{subsection.1.3.7}
+\contentsline {subsection}{\numberline {1.3.7}Die Eroberung}{12}{subsection.1.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}C - Die Revoluzzer}{9}{section.1.4}
+\contentsline {section}{\numberline {1.4}C - Die Revoluzzer}{12}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Das Tribunat}{9}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Das Tribunat}{12}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Der Konflikt}{9}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Der Konflikt}{12}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}die \IeC {\"U}berzeugung}{9}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.3}die \IeC {\"U}berzeugung}{12}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}St\IeC {\"o}rung der Ansprache (optional)}{9}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.4}St\IeC {\"o}rung der Ansprache (optional)}{12}{subsection.1.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.5}Die Gleichmachung oder Das Schafott}{9}{subsection.1.4.5}
+\contentsline {subsection}{\numberline {1.4.5}Die Gleichmachung oder Das Schafott}{12}{subsection.1.4.5}

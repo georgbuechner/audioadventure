@@ -1935,9 +1935,13 @@
     <bcf:citekey order="10">hegel_grundlinien_2017</bcf:citekey>
     <bcf:citekey order="11">nietzsche_jenseits_2014</bcf:citekey>
     <bcf:citekey order="12">nietzsche_jenseits_2014</bcf:citekey>
-    <bcf:citekey order="13">freud_gesellschaft_2013</bcf:citekey>
-    <bcf:citekey order="14">freud_gesellschaft_2013</bcf:citekey>
-    <bcf:citekey order="15">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="13">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="14">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="15">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="16">hegel_grundlinien_2017</bcf:citekey>
+    <bcf:citekey order="17">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="18">freud_gesellschaft_2013</bcf:citekey>
+    <bcf:citekey order="19">freud_gesellschaft_2013</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
