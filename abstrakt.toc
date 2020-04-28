@@ -23,17 +23,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.8}Die Eroberung}{10}{subsection.1.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}B - Die B\IeC {\"u}rger}{11}{section.1.3}
+\contentsline {section}{\numberline {1.3}B - Die B\IeC {\"u}rger}{12}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Die erste Entscheidung}{11}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Die erste Entscheidung}{12}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Weg zur Trib\IeC {\"u}ne I}{11}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Weg zur Trib\IeC {\"u}ne I}{12}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Action X}{11}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Action X}{12}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Die \IeC {\"U}berzeugung}{11}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.4}Die \IeC {\"U}berzeugung}{12}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Die Ansprache}{11}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.5}Die Ansprache}{12}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.6}Weg zur Eroberung}{12}{subsection.1.3.6}
 \defcounter {refsection}{0}\relax 
